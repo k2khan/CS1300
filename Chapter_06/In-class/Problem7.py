@@ -1,0 +1,5 @@
+palindrome = input('Enter a word or sentence: ')
+check = list(palindrome)
+check.reverse()
+check = ''.join(check)
+print('Palindrome: ', check in palindrome)
